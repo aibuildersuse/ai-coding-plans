@@ -1,0 +1,833 @@
+{
+ "updated": "2026-10-20",
+ "about": "Usage caps per plan for AI coding tools. Every number is copied from the vendor page in 'sources' on its 'checked' date. Kinds: rel = multiple published by the vendor relative to another plan of the same tool; amt = published amount; np = a cap exists but its size is not published; none = no cap of this kind is published; nolimit = vendor says this window has no limit. 'v' is only used to scale the bars within one tool.",
+ "windows": [
+  [
+   "short",
+   "5-hour / daily"
+  ],
+  [
+   "week",
+   "Weekly"
+  ],
+  [
+   "month",
+   "Monthly"
+  ]
+ ],
+ "tools": [
+  {
+   "slug": "claude-code",
+   "name": "Claude Code",
+   "unit": "multiple of Pro's per-session allowance",
+   "note": "Pro and Max have a 5-hour session limit and a weekly limit, shared across Claude and Claude Code. Max also has a separate weekly limit for Fable. Anthropic says it may also apply weekly and monthly caps at its discretion.",
+   "hit": "Wait for the reset, turn on usage credits (billed at standard API rates), upgrade Pro → Max 5x → Max 20x, or switch to a Console API account.",
+   "guide": [
+    "What happens when you hit Claude Code's weekly limit",
+    "limits/claude-code-weekly-limit.html"
+   ],
+   "sources": [
+    [
+     "Claude help: Use Claude Code with your Pro or Max plan",
+     "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan",
+     "2026-10-20"
+    ],
+    [
+     "Claude help: What is the Max plan?",
+     "https://support.claude.com/en/articles/11049741-what-is-the-max-plan",
+     "2026-10-20"
+    ],
+    [
+     "Claude pricing",
+     "https://claude.com/pricing",
+     "2026-10-20"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Pro",
+     "price": 20,
+     "priceNote": "$20/mo, $17/mo billed annually",
+     "caps": {
+      "short": {
+       "k": "rel",
+       "v": 1,
+       "t": "1x: the baseline session allowance (size not published), resets every 5 hours"
+      },
+      "week": {
+       "k": "np",
+       "t": "Weekly limit exists, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Max 5x",
+     "price": 100,
+     "priceNote": "$100/mo, monthly only",
+     "caps": {
+      "short": {
+       "k": "rel",
+       "v": 5,
+       "t": "5x Pro's per-session allowance, resets every 5 hours"
+      },
+      "week": {
+       "k": "np",
+       "t": "Weekly limit across all models, plus a separate weekly Fable limit; sizes not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Max 20x",
+     "price": 200,
+     "priceNote": "$200/mo, monthly only",
+     "caps": {
+      "short": {
+       "k": "rel",
+       "v": 20,
+       "t": "20x Pro's per-session allowance, resets every 5 hours"
+      },
+      "week": {
+       "k": "np",
+       "t": "Weekly limit across all models, plus a separate weekly Fable limit; sizes not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "cursor",
+   "name": "Cursor",
+   "unit": "multiple of Plus's weekly pool",
+   "note": "Each paid plan has one weekly pool for Cursor's own models, shared across Cursor and Grok. Third-party models (Claude, GPT, Gemini) aren't in the pool: Premium and up pay API list price from prepaid credit. Legacy Pro/Pro+/Ultra plans keep two monthly pools.",
+   "hit": "Wait for the weekly refresh, buy top-ups (or Auto Top-up) at per-model rates, or upgrade for a bigger pool. Cursor says requests are never downgraded.",
+   "guide": [
+    "Cursor usage limits explained",
+    "limits/cursor-usage-limits.html"
+   ],
+   "sources": [
+    [
+     "Cursor pricing",
+     "https://cursor.com/pricing",
+     "2026-10-20"
+    ],
+    [
+     "Cursor docs: Models & Pricing",
+     "https://cursor.com/docs/account/pricing",
+     "2026-10-20"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Free",
+     "price": 0,
+     "priceNote": "$0",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "np",
+       "t": "\"Limited\" agent and chat usage, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Plus",
+     "price": 8,
+     "priceNote": "$8/mo ($80/yr); Cursor models only",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "rel",
+       "v": 1,
+       "t": "1x: the base weekly pool (size not published)"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap; pool refreshes weekly"
+      }
+     }
+    },
+    {
+     "plan": "Premium",
+     "price": 30,
+     "priceNote": "$30/mo ($300/yr)",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "rel",
+       "v": 4,
+       "t": "4x Plus's weekly pool"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap; optional spend cap you set for extra usage"
+      }
+     }
+    },
+    {
+     "plan": "Super",
+     "price": 100,
+     "priceNote": "$100/mo ($1,000/yr)",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "rel",
+       "v": 15,
+       "t": "15x Plus's weekly pool"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap; optional spend cap you set for extra usage"
+      }
+     }
+    },
+    {
+     "plan": "Ultra",
+     "price": 200,
+     "priceNote": "$200/mo ($2,000/yr)",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "rel",
+       "v": 50,
+       "t": "50x Plus's weekly pool"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap; optional spend cap you set for extra usage"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "codex",
+   "name": "OpenAI Codex",
+   "unit": "published local messages per 5 hours (Plus)",
+   "note": "Codex shares usage with ChatGPT Work. OpenAI publishes estimated local messages per 5 hours for Plus (not fixed limits) and says Pro plans currently have no 5-hour limit. Weekly limits \"may also apply\"; sizes not published. Pro 200 includes more usage than Pro 100; Pro 500 has the most.",
+   "hit": "An in-progress turn can finish. Plus and Pro can buy credits; anyone can run extra local chats with an API key at API rates.",
+   "guide": [
+    "Codex 5-hour limit explained",
+    "limits/codex-5-hour-limit.html"
+   ],
+   "sources": [
+    [
+     "Codex pricing (learn.chatgpt.com)",
+     "https://learn.chatgpt.com/docs/pricing",
+     "2026-10-20"
+    ],
+    [
+     "OpenAI help: About ChatGPT Pro plans",
+     "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-plans",
+     "2026-10-19"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Plus",
+     "price": 20,
+     "priceNote": "$20/mo",
+     "caps": {
+      "short": {
+       "k": "amt",
+       "v": 160,
+       "t": "Estimated 15–160 local messages per 5 hours on GPT-6.1 Sol (5–45 on GPT-6 Astra, 350–3,000 on GPT-6 Luna)",
+       "l": "15–160 msgs"
+      },
+      "week": {
+       "k": "np",
+       "t": "Weekly limits may apply, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Pro 100",
+     "price": 100,
+     "priceNote": "$100/mo, monthly only",
+     "caps": {
+      "short": {
+       "k": "nolimit",
+       "t": "Pro plans currently have no 5-hour limit"
+      },
+      "week": {
+       "k": "np",
+       "t": "Allowance not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Pro 200",
+     "price": 200,
+     "priceNote": "$200/mo; new subs get a lower allowance than before",
+     "caps": {
+      "short": {
+       "k": "nolimit",
+       "t": "Pro plans currently have no 5-hour limit"
+      },
+      "week": {
+       "k": "np",
+       "t": "More than Pro 100; size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Pro 500",
+     "price": 500,
+     "priceNote": "$500/mo; only tier with Ultrafast",
+     "caps": {
+      "short": {
+       "k": "nolimit",
+       "t": "Pro plans currently have no 5-hour limit"
+      },
+      "week": {
+       "k": "np",
+       "t": "Highest Pro allowance; size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "github-copilot",
+   "name": "GitHub Copilot",
+   "unit": "GitHub AI Credits per month (1 credit = $0.01)",
+   "note": "Chat, agent mode, code review, the cloud agent and Copilot CLI spend GitHub AI Credits, priced by model and tokens. Code completions don't use credits. Paid allowances are base credits plus a flex allotment GitHub says may change.",
+   "hit": "Paid plans can buy more credits at $0.01 each; Free waits for next month.",
+   "guide": [
+    "Is GitHub Copilot free?",
+    "best/is-github-copilot-free.html"
+   ],
+   "sources": [
+    [
+     "GitHub Copilot plans",
+     "https://github.com/features/copilot/plans",
+     "2026-10-20"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Free",
+     "price": 0,
+     "priceNote": "$0",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 0,
+       "t": "2,000 completions and 50 chat requests a month",
+       "l": "50 chats"
+      }
+     }
+    },
+    {
+     "plan": "Pro",
+     "price": 10,
+     "priceNote": "$10/mo",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 15,
+       "t": "$15 of AI credits a month ($10 base + $5 flex); unlimited completions",
+       "l": "$15"
+      }
+     }
+    },
+    {
+     "plan": "Pro+",
+     "price": 39,
+     "priceNote": "$39/mo",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 70,
+       "t": "$70 of AI credits a month ($39 base + $31 flex)",
+       "l": "$70"
+      }
+     }
+    },
+    {
+     "plan": "Max",
+     "price": 100,
+     "priceNote": "$100/mo",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 200,
+       "t": "$200 of AI credits a month ($100 base + $100 flex)",
+       "l": "$200"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "windsurf",
+   "name": "Windsurf (Devin Desktop)",
+   "unit": "relative quota (not published)",
+   "note": "Since March 2026 every plan has a daily and a weekly token budget instead of prompt credits. The daily quota is more than 1/7 of the weekly one. Cognition doesn't publish the sizes: Free is a \"light quota\", Max \"significantly higher quotas\" than Pro.",
+   "hit": "Free waits for the daily or weekly reset; Pro, Teams and Max can buy extra usage at API pricing.",
+   "guide": [
+    "Is Windsurf free?",
+    "best/is-windsurf-free.html"
+   ],
+   "sources": [
+    [
+     "Devin pricing",
+     "https://devin.ai/pricing",
+     "2026-10-20"
+    ],
+    [
+     "Devin Desktop docs: quota-based usage",
+     "https://docs.devin.ai/desktop/accounts/quota",
+     "2026-10-20"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Free",
+     "price": 0,
+     "priceNote": "$0",
+     "caps": {
+      "short": {
+       "k": "np",
+       "t": "Daily quota (\"light\"), size not published"
+      },
+      "week": {
+       "k": "np",
+       "t": "Weekly quota, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Pro",
+     "price": 20,
+     "priceNote": "$20/mo",
+     "caps": {
+      "short": {
+       "k": "np",
+       "t": "Daily quota, size not published"
+      },
+      "week": {
+       "k": "np",
+       "t": "Weekly quota, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Max",
+     "price": 200,
+     "priceNote": "$200/mo",
+     "caps": {
+      "short": {
+       "k": "np",
+       "t": "\"Significantly higher\" quotas than Pro, size not published"
+      },
+      "week": {
+       "k": "np",
+       "t": "\"Significantly higher\" quotas than Pro, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "antigravity",
+   "name": "Google Antigravity",
+   "unit": "relative quota (not published)",
+   "note": "Rate limits depend on your Google AI plan and track the work the agent does, not prompt count. Google publishes only the shape: Free gets a weekly quota, Pro a 5-hour quota up to a higher weekly limit, Ultra the highest of both.",
+   "hit": "Pro and Ultra can spend AI credits (setting: AI Credit Overages); Free waits for the weekly refresh.",
+   "guide": [
+    "Is Google Antigravity free?",
+    "best/is-google-antigravity-free.html"
+   ],
+   "sources": [
+    [
+     "Antigravity docs: Plans",
+     "https://antigravity.google/docs/plans",
+     "2026-10-20"
+    ],
+    [
+     "Antigravity pricing",
+     "https://antigravity.google/pricing",
+     "2026-10-20"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Individual (free)",
+     "price": 0,
+     "priceNote": "$0 (also Google AI Plus)",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour refresh on the free tier"
+      },
+      "week": {
+       "k": "np",
+       "t": "\"A meaningful quota, refreshed weekly\" plus a weekly rate limit; size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Google AI Pro",
+     "price": 19.99,
+     "priceNote": "$19.99/mo (US)",
+     "caps": {
+      "short": {
+       "k": "np",
+       "t": "\"High, generous\" quota refreshed every five hours, size not published"
+      },
+      "week": {
+       "k": "np",
+       "t": "A higher weekly rate limit, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    },
+    {
+     "plan": "Google AI Ultra",
+     "price": 99.99,
+     "priceNote": "from $99.99/mo (US)",
+     "caps": {
+      "short": {
+       "k": "np",
+       "t": "\"The highest, most generous quota\", refreshed every five hours; size not published"
+      },
+      "week": {
+       "k": "np",
+       "t": "The highest weekly rate limits, size not published"
+      },
+      "month": {
+       "k": "none",
+       "t": "No monthly cap published"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "replit-agent",
+   "name": "Replit",
+   "unit": "US dollars of monthly credits",
+   "note": "Paid plans include monthly credits for Agent (Power and Max modes) plus capped Free Mode use; Starter gets daily Agent credits up to a monthly cap. Starter's amounts aren't published on the pricing page.",
+   "hit": "Buy credit packs ($100–$1,000, expire after 6 months), move to a bigger Pro credit tier, or wait for the next month.",
+   "guide": [
+    "Is Replit free?",
+    "best/is-replit-free.html"
+   ],
+   "sources": [
+    [
+     "Replit pricing",
+     "https://replit.com/pricing",
+     "2026-10-20"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Starter",
+     "price": 0,
+     "priceNote": "$0",
+     "caps": {
+      "short": {
+       "k": "np",
+       "t": "Daily Agent credits, amount not published"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "np",
+       "t": "Monthly cap on daily credits, amount not published"
+      }
+     }
+    },
+    {
+     "plan": "Core",
+     "price": 20,
+     "priceNote": "$20/mo, $18 billed annually",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 20,
+       "t": "$20 of credits a month, plus up to 30 hours of Free Mode chat",
+       "l": "$20"
+      }
+     }
+    },
+    {
+     "plan": "Pro",
+     "price": 100,
+     "priceNote": "$100/mo, $90 billed annually",
+     "caps": {
+      "short": {
+       "k": "none",
+       "t": "No 5-hour or daily cap published"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 100,
+       "t": "$100 of credits a month (tiers up to $2,500), 2-month rollover",
+       "l": "$100"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "slug": "lovable",
+   "name": "Lovable",
+   "unit": "build credits",
+   "note": "Lovable meters building in credits (Plan Mode is 1 credit per message; Default Mode varies by task). Every plan gets 5 daily build credits that expire each day; paid plans add a monthly credit balance.",
+   "hit": "Free waits for tomorrow's 5 credits; paid plans buy top-ups ($15 per 50 credits) or a bigger credit tier.",
+   "guide": [
+    "Is Lovable free?",
+    "best/is-lovable-free.html"
+   ],
+   "sources": [
+    [
+     "Lovable pricing",
+     "https://lovable.dev/pricing",
+     "2026-10-19"
+    ]
+   ],
+   "plans": [
+    {
+     "plan": "Free",
+     "price": 0,
+     "priceNote": "$0",
+     "caps": {
+      "short": {
+       "k": "amt",
+       "v": 5,
+       "t": "5 build credits a day (expire daily)",
+       "l": "5/day"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 30,
+       "t": "Daily credits capped at 30 a month on some regional plans; 20 Cloud credits a month",
+       "l": "≤30"
+      }
+     }
+    },
+    {
+     "plan": "Pro",
+     "price": 25,
+     "priceNote": "from $25/mo ($21/mo yearly)",
+     "caps": {
+      "short": {
+       "k": "amt",
+       "v": 5,
+       "t": "5 daily build credits on top of the monthly balance",
+       "l": "5/day"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 100,
+       "t": "100 credits a month at $25 (tiers up to 10,000)",
+       "l": "100"
+      }
+     }
+    },
+    {
+     "plan": "Business",
+     "price": 50,
+     "priceNote": "from $50/mo ($42/mo yearly)",
+     "caps": {
+      "short": {
+       "k": "amt",
+       "v": 5,
+       "t": "5 daily build credits on top of the monthly balance",
+       "l": "5/day"
+      },
+      "week": {
+       "k": "none",
+       "t": "No weekly cap published"
+      },
+      "month": {
+       "k": "amt",
+       "v": 100,
+       "t": "100 credits a month at $50",
+       "l": "100"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "changes": [
+  {
+   "date": "2026-10-20",
+   "tool": "cursor",
+   "title": "Limits Ladder starts tracking Cursor: weekly pool sizes Plus 1x, Premium 4x, Super 15x, Ultra 50x",
+   "detail": "Baseline entry. Cursor's new plans share one weekly pool across Cursor and Grok; legacy plans keep two monthly pools.",
+   "source": "https://cursor.com/docs/account/pricing"
+  },
+  {
+   "date": "2026-10-20",
+   "tool": "claude-code",
+   "title": "Baseline: Claude Pro 1x, Max 5x and Max 20x per 5-hour session, plus weekly limits",
+   "detail": "Max also has a separate weekly limit for Fable. Sizes in tokens or messages are not published.",
+   "source": "https://support.claude.com/en/articles/11049741-what-is-the-max-plan"
+  },
+  {
+   "date": "2026-10-20",
+   "tool": "codex",
+   "title": "Baseline: Codex Plus 15–160 GPT-6.1 Sol messages per 5 hours; Pro has no 5-hour limit",
+   "detail": "OpenAI calls these estimates, not fixed limits. Weekly limits may also apply.",
+   "source": "https://learn.chatgpt.com/docs/pricing"
+  },
+  {
+   "date": "2026-10-19",
+   "tool": "codex",
+   "title": "New ChatGPT Pro 200 subscriptions get a lower Codex allowance",
+   "detail": "Same $200 price. Grandfathered Pro 200 subscribers keep the old allowance through Oct 29, 2026. Sizes not published.",
+   "source": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-plans"
+  },
+  {
+   "date": "2026-10-14",
+   "tool": "cursor",
+   "title": "Cursor's new plans move from monthly pools to a weekly pool",
+   "detail": "Free, Plus $8, Premium $30, Super $100, Ultra $200. The allowance refreshes weekly.",
+   "source": "https://cursor.com/pricing"
+  },
+  {
+   "date": "2026-09-21",
+   "tool": "lovable",
+   "title": "Lovable adds a daily chat allowance for Chats and Chat mode",
+   "detail": "Size not published; Lovable says the chat pricing is temporary through Oct 31, 2026.",
+   "source": "https://docs.lovable.dev/changelog"
+  },
+  {
+   "date": "2026-06-01",
+   "tool": "github-copilot",
+   "title": "GitHub Copilot replaces premium requests with monthly AI credits",
+   "detail": "1 credit = $0.01; completions don't use credits.",
+   "source": "https://docs.github.com/en/copilot/concepts/billing-and-usage/individuals/billing"
+  },
+  {
+   "date": "2026-03-01",
+   "tool": "windsurf",
+   "title": "Windsurf / Devin Desktop replaces prompt credits with daily and weekly quotas",
+   "detail": "Month only (March 2026) is published; logged here as Mar 1.",
+   "source": "https://docs.devin.ai/desktop/accounts/quota"
+  }
+ ]
+}

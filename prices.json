@@ -1,0 +1,458 @@
+{
+ "cursor": {
+  "free": true,
+  "entry": 8,
+  "entryLabel": "Plus $8/mo",
+  "verified": "Free $0; Plus $8/mo; Premium $30/mo; Super $100/mo; Ultra $200/mo; Teams seats Premium $30 / Super $100 / Ultra $200 per user/mo",
+  "source": "https://cursor.com/pricing",
+  "checked": "2026-10-19"
+ },
+ "claude": {
+  "free": true,
+  "entry": 20,
+  "entryLabel": "Pro $20/mo (US, monthly)",
+  "verified": "Free; Pro $20/mo US ($17/mo billed annually); Max from $100/mo; Team Standard $25/seat/mo ($20 annual), Premium $125/seat/mo ($100 annual)",
+  "source": "https://claude.com/pricing",
+  "checked": "2026-10-19"
+ },
+ "claude-code": {
+  "free": false,
+  "entry": 20,
+  "entryLabel": "via Claude Pro $20/mo",
+  "verified": "Not on Claude Free; included with Claude Pro ($20/mo US, $17/mo annual), Max 5x ($100/mo) and Max 20x ($200/mo), every Team seat (Standard $25/seat/mo, $20 annual; Premium $125, $100 annual) and Enterprise seats ($20/seat/mo annual + API-rate usage); or Console API usage at standard API rates",
+  "source": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan",
+  "checked": "2026-10-19"
+ },
+ "codex": {
+  "free": true,
+  "entry": 20,
+  "entryLabel": "via ChatGPT Plus $20/mo",
+  "verified": "Limited on ChatGPT Free ($0) and Go ($8/mo): GPT-6 Luna in the desktop app, subject to rollout, no Codex cloud; Plus $20/mo (web, CLI, IDE, iOS, cloud); Pro $100, $200 or $500/mo (monthly only); Business Standard seat $20/user/mo billed annually ($25 monthly), Premium seat $100/user/mo annually ($125 monthly, 5x Standard usage, no 5-hour limit), 2-200 users; Enterprise/Edu custom; or API-key usage at API rates",
+  "source": "https://learn.chatgpt.com/docs/pricing",
+  "checked": "2026-10-19"
+ },
+ "chatgpt": {
+  "free": true,
+  "entry": 8,
+  "entryLabel": "Go $8/mo",
+  "verified": "Free; Go $8/mo; Plus $20/mo; Pro $100, $200 or $500/mo (3 usage tiers); Business Standard $20/user/mo annual ($25 monthly), Premium $100 annual ($125 monthly), 2 to 200 seats; Enterprise custom",
+  "source": "https://chatgpt.com/pricing",
+  "checked": "2026-10-19"
+ },
+ "github-copilot": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "Pro $10/mo",
+  "verified": "Free; Pro $10/mo ($15 of AI credits); Pro+ $39/mo ($70 of credits); Max $100/mo ($200 of credits); Business $19/user/mo (1,900 pooled AI credits per user); Enterprise $39/user/mo (3,900 credits); extra usage $0.01/credit",
+  "source": "https://github.com/features/copilot/plans",
+  "checked": "2026-10-19"
+ },
+ "windsurf": {
+  "free": true,
+  "entry": 20,
+  "entryLabel": "Pro $20/mo",
+  "verified": "Free $0 (light agent quota with daily/weekly resets, limited models, unlimited Tab and inline edits; no extra usage); Pro $20/mo (daily + weekly quota, full models, Devin Cloud); Max $200/mo (weekly quota, no daily cap); Teams $80/mo minimum, full seats $40/mo each (up to 200 users); Enterprise custom; extra usage at API pricing; no free trials",
+  "source": "https://devin.ai/pricing",
+  "checked": "2026-10-19"
+ },
+ "lovable": {
+  "free": true,
+  "entry": 25,
+  "entryLabel": "Pro $25/mo",
+  "verified": "Free $0 (5 daily build credits up to 30/mo; monthly 20 Cloud, 4 AI and 1 connector credits; daily chat allowance; workspace-private projects; Git sync; invite-only publishing up to 10 people; no code editing/download, custom domains or top-ups); Pro from $25/mo or $250/yr ($21/mo) for 100 credits, tiers up to 10,000 credits ($2,250/mo), top-ups $15 per 50 credits; Business from $50/mo or $500/yr ($42/mo) for 100 credits, up to $4,300/mo (SSO, workspace publish, training excluded by default); priced by credits, not seats; annual = 2 months free; students/teachers 50% off 100-credit Pro monthly for up to 12 months; Enterprise platform fee + volume pricing",
+  "source": "https://lovable.dev/pricing",
+  "checked": "2026-10-19"
+ },
+ "v0": {
+  "free": true,
+  "entry": 30,
+  "entryLabel": "Plus $30/user/mo",
+  "verified": "Free $0 (7 messages/day; $5 one-time credits for new users); Plus $30/user/mo with $30 monthly credits + $2 daily login credits; Business $100/user/mo (training opt-out by default); Enterprise custom",
+  "source": "https://v0.app/pricing",
+  "checked": "2026-10-19"
+ },
+ "replit-agent": {
+  "free": true,
+  "entry": 20,
+  "entryLabel": "Core $20/mo",
+  "verified": "Starter free (daily Agent credits up to a monthly cap, Free Mode with a daily cap, Lite build only, 1 published app for 30 days with Made with Replit badge); Core $20/mo ($18/mo annual) with $20 of monthly credits, up to 30 hours of chat on Free Mode; Pro $100/mo ($90/mo annual) with $100 of credits, tiers $250 ($225/mo or $215 annual), $500 ($440/$425), $1,000 ($850/$825), $2,500 ($2,050/$2,000), 2-month rollover, up to 15 builders; Enterprise custom (annual credit commitment or pay-as-you-go); credit packs $100-$1,000 (up to $50 off, expire in 6 months)",
+  "source": "https://replit.com/pricing",
+  "checked": "2026-10-20"
+ },
+ "bolt": {
+  "free": true,
+  "entry": 25,
+  "entryLabel": "Pro $25/mo",
+  "verified": "Free $0 (300K tokens/day, 1M tokens/mo, Standard agent only, public and private projects, bolt.host hosting up to 10 GB + 333,333 requests/mo, published sites public only, Made in Bolt badge, no custom domains); Pro $25/mo or $18/mo billed yearly ($216/yr) (10M tokens/mo, no daily limit, rollover, Max agent, custom domains, private sites, Supabase option); Teams $30/member/mo or $27 yearly (tokens per member, not shared); Enterprise custom; yearly billing saves up to 28%; Lite $9/mo (Forge only) closed to new sign-ups Oct 14, 2026, existing members keep $9/mo; content created on or after Oct 7, 2026 used for AI training by default unless opted out (not EU/UK/CH, not Teams/Enterprise)",
+  "source": "https://bolt.new/pricing",
+  "checked": "2026-10-19"
+ },
+ "aider": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "Free (you pay model API usage)",
+  "verified": "Free, open source (Apache-2.0); model API costs extra",
+  "source": "https://github.com/Aider-AI/aider",
+  "checked": "2026-10-19"
+ },
+ "continue": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "Free (bring your own models)",
+  "verified": "Free / open source (Apache-2.0). Acquired by Cursor; last release Jun 19, 2026; code remains on GitHub",
+  "source": "https://www.continue.dev/",
+  "checked": "2026-10-17"
+ },
+ "midjourney": {
+  "free": false,
+  "entry": null,
+  "entryLabel": null,
+  "verified": null,
+  "source": "https://midjourney.com",
+  "checked": null
+ },
+ "flux": {
+  "free": false,
+  "entry": null,
+  "entryLabel": null,
+  "verified": "API ~$0.048/image at the default settings on the BFL calculator; FLUX.1 [schnell] open weights Apache-2.0",
+  "source": "https://bfl.ai/pricing",
+  "checked": "2026-10-14"
+ },
+ "runway": {
+  "free": true,
+  "entry": 12,
+  "entryLabel": "Standard $12/mo (annual)",
+  "verified": "Free one-time credits; Standard $12/mo, Pro $28/mo, Max $76/mo billed annually ($15 Standard monthly)",
+  "source": "https://runwayml.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "supabase": {
+  "free": true,
+  "entry": 25,
+  "entryLabel": "Pro $25/mo",
+  "verified": "Free: 2 active projects, 500 MB DB, 50K MAU, pause after 1 week idle; Pro from $25/mo (8 GB disk, 100K MAU, $10 compute credits); Team from $599/mo",
+  "source": "https://supabase.com/pricing",
+  "checked": "2026-10-19"
+ },
+ "vercel": {
+  "free": true,
+  "entry": 20,
+  "entryLabel": "Pro $20/mo",
+  "verified": "Hobby $0 (non-commercial, personal use only); Pro $20/mo",
+  "source": "https://vercel.com/pricing",
+  "checked": "2026-10-19"
+ },
+ "railway": {
+  "free": false,
+  "entry": null,
+  "entryLabel": null,
+  "verified": "30-day trial with $5 credits; usage-based plans; Pro includes $20 of monthly usage credits",
+  "source": "https://railway.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "netlify": {
+  "free": true,
+  "entry": 9,
+  "entryLabel": "Personal $9/mo",
+  "verified": "Free $0; Personal $9/mo; Pro $20/mo",
+  "source": "https://www.netlify.com/pricing/",
+  "checked": "2026-10-19"
+ },
+ "stripe": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "No monthly fee (2.9% + 30¢ per card charge)",
+  "verified": "2.9% + 30¢ per successful domestic card transaction; no setup or monthly fees",
+  "source": "https://stripe.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "linear": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "Basic $10/user/mo (annual)",
+  "verified": "Free $0; Basic $10/user/mo; Business $16/user/mo (billed yearly)",
+  "source": "https://linear.app/pricing",
+  "checked": "2026-10-14"
+ },
+ "notion-ai": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "Plus $10/member/mo (annual)",
+  "verified": "Free; Plus $10/member/mo; Business $20/member/mo (billed yearly)",
+  "source": "https://www.notion.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "perplexity": {
+  "free": true,
+  "entry": null,
+  "entryLabel": null,
+  "verified": null,
+  "source": "https://perplexity.ai",
+  "checked": null
+ },
+ "github": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "Free",
+  "verified": "Free plan; paid Team and Enterprise; Codespaces from $0.18/hr",
+  "source": "https://github.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "figma": {
+  "free": true,
+  "entry": 16,
+  "entryLabel": "Professional full seat $16/mo",
+  "verified": "Free starter; Professional full seat $16/mo (Dev $12, Collab $3); Organization full seat $55/mo (annual)",
+  "source": "https://www.figma.com/pricing/",
+  "checked": "2026-10-14"
+ },
+ "sentry": {
+  "free": true,
+  "entry": 26,
+  "entryLabel": "Team $26/mo (annual)",
+  "verified": "Developer free (1 user); Team $26/mo; Business $80/mo (billed annually); Seer AI at additional cost",
+  "source": "https://sentry.io/pricing/",
+  "checked": "2026-10-14"
+ },
+ "n8n": {
+  "free": false,
+  "entry": null,
+  "entryLabel": "Starter ~€20/mo (annual)",
+  "verified": "Cloud Starter €20/mo, Pro €50/mo (billed annually); self-hosting available",
+  "source": "https://n8n.io/pricing/",
+  "checked": "2026-10-14"
+ },
+ "zapier": {
+  "free": true,
+  "entry": 20,
+  "entryLabel": "Professional from $19.99/mo",
+  "verified": "Free $0; Professional from $19.99/mo; Team from $69/mo",
+  "source": "https://zapier.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "make": {
+  "free": true,
+  "entry": null,
+  "entryLabel": null,
+  "verified": "Free plan with 1,000 credits/mo; Core, Pro, Teams paid plans",
+  "source": "https://www.make.com/en/pricing",
+  "checked": "2026-10-14"
+ },
+ "crewai": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "Free (open source)",
+  "verified": "Open source (MIT); hosted Basic plan free; Enterprise custom",
+  "source": "https://www.crewai.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "langgraph": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "Free (open source)",
+  "verified": "Open source (MIT); LangSmith priced separately",
+  "source": "https://github.com/langchain-ai/langgraph",
+  "checked": "2026-10-14"
+ },
+ "coderabbit": {
+  "free": true,
+  "entry": 24,
+  "entryLabel": "Essentials $24/dev/mo (annual)",
+  "verified": "Free for public repos; Essentials $24/dev/mo annual ($30 monthly); Team $48 annual ($60 monthly); Advanced $72 annual ($90 monthly); extra reviews $0.25 per reviewed file",
+  "source": "https://www.coderabbit.ai/pricing",
+  "checked": "2026-10-16"
+ },
+ "qodo": {
+  "free": false,
+  "entry": 30,
+  "entryLabel": "Pro Team from $30/mo (2,500 credits)",
+  "verified": "14-day free trial; Pro Team credit packs $30/mo (2,500 credits, ~18 reviews), $60 (5,000, ~36), $240 (20,000, ~144) at $0.012/credit pooled across the team; free for qualified open-source projects",
+  "source": "https://www.qodo.ai/pricing/",
+  "checked": "2026-10-16"
+ },
+ "greptile": {
+  "free": true,
+  "entry": 30,
+  "entryLabel": "Pro $30/seat/mo",
+  "verified": "Free Starter (1 developer, 50 credits/mo); Pro $30/seat/mo with 50 credits per seat; extra credits $1; Base review 1 credit, Plus 3, Apex 10; Enterprise custom",
+  "source": "https://www.greptile.com/pricing",
+  "checked": "2026-10-16"
+ },
+ "elevenlabs": {
+  "free": true,
+  "entry": 6,
+  "entryLabel": "Starter $6/mo",
+  "verified": "Free (10k credits); Starter $6/mo; Creator $22/mo; Scale $299/mo; Pro and Business",
+  "source": "https://elevenlabs.io/pricing",
+  "checked": "2026-10-14"
+ },
+ "suno": {
+  "free": true,
+  "entry": 8,
+  "entryLabel": "Pro $8/mo (annual)",
+  "verified": "Free (no commercial rights); Pro $8/mo, Premier $24/mo billed yearly",
+  "source": "https://suno.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "descript": {
+  "free": true,
+  "entry": 16,
+  "entryLabel": "Hobbyist $16/mo (annual)",
+  "verified": "Free; Hobbyist $16/mo annual ($24 monthly); Creator $24/mo annual ($35 monthly)",
+  "source": "https://www.descript.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "deepgram": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "Pay as you go ($200 free credit)",
+  "verified": "$200 free credit, then pay-as-you-go; Growth plan $4K+/yr",
+  "source": "https://deepgram.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "pika": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "$10/mo plan",
+  "verified": "Free $0; paid plans $10, $35, $95+/mo",
+  "source": "https://pika.art/pricing",
+  "checked": "2026-10-14"
+ },
+ "kling": {
+  "free": null,
+  "entry": null,
+  "entryLabel": null,
+  "verified": null,
+  "source": "https://klingai.com",
+  "checked": null
+ },
+ "veo": {
+  "free": null,
+  "entry": null,
+  "entryLabel": null,
+  "verified": "Via Google AI plans (Flow credits); Gemini API Veo 3.1 Lite from $0.05/sec, Fast $0.10/sec, Standard $0.40/sec (720p/1080p)",
+  "source": "https://ai.google.dev/gemini-api/docs/pricing",
+  "checked": "2026-10-14"
+ },
+ "luma": {
+  "free": false,
+  "entry": 30,
+  "entryLabel": "Plus $30/mo",
+  "verified": "Plus $30/mo; Pro $90/mo; Ultra $300/mo",
+  "source": "https://lumalabs.ai/pricing",
+  "checked": "2026-10-14"
+ },
+ "firebase": {
+  "free": true,
+  "entry": null,
+  "entryLabel": null,
+  "verified": "Spark free (no payment method); Blaze pay-as-you-go with Spark free quotas included (Firestore 1 GiB, Auth 50K MAU, etc.)",
+  "source": "https://firebase.google.com/pricing",
+  "checked": "2026-10-14"
+ },
+ "base44": {
+  "free": true,
+  "entry": 16,
+  "entryLabel": "Starter $16/mo (billed annually)",
+  "verified": "Free $0 (25 message credits/mo, up to 5 apps); Starter $16/mo, Builder $40/mo, Pro $80/mo, Elite $160/mo (all billed annually; annual saves 20% vs monthly)",
+  "source": "https://base44.com/pricing",
+  "checked": "2026-10-19"
+ },
+ "antigravity": {
+  "free": true,
+  "entry": 19.99,
+  "entryLabel": "Google AI Pro $19.99/mo",
+  "verified": "Individual $0/mo (agent models, unlimited Tab completions and command requests, basic weekly rate limits; Claude Sonnet/Opus 4.6 and GPT-OSS-120b leave the free tier Nov 2, 2026); Google AI Plus ($4.99/mo) gets the same Antigravity tier; Google AI Pro $19.99/mo US (5-hour quota refresh, higher weekly limit, Gemini 4 Argon and Claude 5.5 on paid subscriptions, AI credit overages); Google AI Ultra $99.99/mo (5x) or $199.99/mo (20x); organizations via Google Cloud (Gemini Enterprise Standard/Plus from $30/seat/mo, or pay-as-you-go with $0 seat fee)",
+  "source": "https://antigravity.google/pricing",
+  "checked": "2026-10-20"
+ },
+ "clerk": {
+  "free": true,
+  "entry": 25,
+  "entryLabel": "Pro $25/mo ($20/mo annual)",
+  "verified": "Hobby free: 50K MRU/app, up to 3 social connections, no MFA; Pro $25/mo ($20 annual): 50K MRU then from $0.02/MRU, MFA, unlimited social, 1 SSO; Business $300/mo ($250 annual); B2B Auth add-on $100/mo ($85 annual)",
+  "source": "https://clerk.com/pricing",
+  "checked": "2026-10-15"
+ },
+ "framer": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "Basic $10/mo (yearly billing)",
+  "verified": "Free $0 (Framer domain, 500 AI credits to try, ideal for non-commercial use); Basic $10/mo (1,000 AI credits/mo, custom domain); Pro $30/mo (3,000 credits/mo, staging, A/B testing add-on); prices shown with yearly billing; extra editors $20/mo; Enterprise custom",
+  "source": "https://www.framer.com/pricing",
+  "checked": "2026-10-18"
+ },
+ "cursor-bugbot": {
+  "free": false,
+  "entry": 30,
+  "entryLabel": "Included with Cursor Premium $30/mo (usage-based)",
+  "verified": "Usage-based since the May 2026 update (was $40/seat/mo); included with Premium, Super, Ultra, Teams and Enterprise, not Free or Plus; average run $1.00-$1.50 per Cursor",
+  "source": "https://cursor.com/docs/bugbot",
+  "checked": "2026-10-16"
+ },
+ "claude-code-review": {
+  "free": false,
+  "entry": 20,
+  "entryLabel": "Claude Team seat $20/mo (annual) + usage",
+  "verified": "Team and Enterprise only; no flat per-review price; billed on token usage via usage credits, separate from seat usage; Team Standard $20/seat/mo annual ($25 monthly)",
+  "source": "https://code.claude.com/docs/en/code-review-costs",
+  "checked": "2026-10-16"
+ },
+ "retool": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "Team $10/builder/mo (billed annually)",
+  "verified": "Free $0 (up to 5 users, 250 pooled AI credits/mo, 500 workflow runs/mo); Team $10/builder/mo + $5/internal user/mo (1,000 AI credits/mo, staging and production); Business $50/builder/mo + $15/internal user/mo (3,000 AI credits/mo, external users, audit logs); prices billed annually (save 20%); Enterprise custom (SSO, SCIM, Git source control, self-hosting)",
+  "source": "https://retool.com/pricing",
+  "checked": "2026-10-16"
+ },
+ "softr": {
+  "free": true,
+  "entry": 19,
+  "entryLabel": "Basic $19/mo (yearly billing)",
+  "verified": "Free $0 (up to 3 builders, 5 app users, 5 AI credits/mo); Basic $19/mo (1 builder, 10 AI credits/mo); Pro $99/mo (2 builders, 50 AI credits/mo, granular permissions); Business $329/mo (3 builders, 100 AI credits/mo); prices shown with yearly billing (2 months off); Enterprise custom (SSO, SCIM, audit logs)",
+  "source": "https://www.softr.io/pricing",
+  "checked": "2026-10-16"
+ },
+ "glide": {
+  "free": true,
+  "entry": 25,
+  "entryLabel": "Basic $25/mo",
+  "verified": "Free $0 (limited credits, 2 members, no published apps); Basic $25/mo (100 credits, 2 published apps); Plus $50/mo (250 credits, 5 published apps, public apps); Pro from $125/mo (5 members, 500 credits plus 50 per member, unlimited published apps, MCP); Enterprise custom (SSO)",
+  "source": "https://www.glideapps.com/pricing",
+  "checked": "2026-10-16"
+ },
+ "budibase": {
+  "free": true,
+  "entry": 19,
+  "entryLabel": "Cloud Pro $19/mo (yearly billing)",
+  "verified": "Open source: free to self-host (unlimited apps, users, automations and agents); Cloud Pro $19/mo yearly or $23 monthly (from 5K actions, 2K Budibase AI credits, 1 creator); Premium $49 / $59 (from 20K actions, 10K AI credits, SSO); Business $299 / $359 (250K actions, 50K AI credits, 3 creators); end users $5/user/mo and extra creators $50/mo on yearly billing; Enterprise custom (SCIM, audit logs)",
+  "source": "https://budibase.com/pricing/",
+  "checked": "2026-10-16"
+ },
+ "jetbrains-ai": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "AI Pro $10/mo",
+  "verified": "AI Free $0 (unlimited AI completion, 3 AI credits per 30 days; not in IntelliJ IDEA without Ultimate, PyCharm without Pro, or Android Studio); AI Pro $10/mo or $100/yr (10 credits per 30 days, free 30-day trial); AI Ultimate $30/mo or $300/yr (35 credits incl. 5 bonus); 1 AI credit = $1 of usage, third-party models at public API rates; top-ups valid 12 months; organizations buy credits for a shared pool",
+  "source": "https://www.jetbrains.com/store/ai/",
+  "checked": "2026-10-19"
+ },
+ "zed": {
+  "free": true,
+  "entry": 10,
+  "entryLabel": "Pro $10/mo",
+  "verified": "Personal $0 (unlimited use with your own API keys or external agents); Pro $10/mo (unlimited edit predictions, $5 of tokens, then API list price +10%; 14-day free trial); Business $30/seat/mo (org AI policies, no seat minimum; SSO/SAML/SCIM planned)",
+  "source": "https://zed.dev/pricing",
+  "checked": "2026-10-19"
+ },
+ "cline": {
+  "free": true,
+  "entry": 0,
+  "entryLabel": "Free + inference",
+  "verified": "Open source, free for individual developers; pay for AI inference on a usage basis (BYOK or Cline provider at cost); optional ClinePass $9.99/mo for 2-5x usage on open models; Enterprise custom (SSO, team management, JetBrains extension listed here)",
+  "source": "https://cline.bot/pricing",
+  "checked": "2026-10-19"
+ }
+}
